@@ -19,7 +19,7 @@
 <pre>crontab -e
 * * * * * php /to-the-path/cron.php</pre>
 <p>2.Edit configuration with following the instruction on the file (conf.ini)</p>
-<pre>nano conf.ini</pre>
+<pre>nano conf/conf.ini</pre>
 <br/>
 <br/>
 <p>Credit:</p>
@@ -27,3 +27,5 @@
   <li>Chatgpt</li>
   <li>svg online editor</li>
 </ol>
+<h1 align="center" style="color:red">Important</h1>
+Block direct access to the configuration file (conf.ini).
