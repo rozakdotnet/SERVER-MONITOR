@@ -4,7 +4,7 @@
 </div>
 
 <p><b>Requirements:</b></p>
-<ol>
+<ol><li>Linux OS</li>
   <li>Apache/Nginx/Litespeed/Openlitespeed/any web server</li>
   <li>Php</li>
   <li>Php-curl</li>
@@ -22,10 +22,16 @@
 <pre>nano conf/conf.ini</pre>
 <br/>
 <br/>
-<p>Credit:</p>
-<ol>
-  <li>Chatgpt</li>
-  <li>svg online editor</li>
-</ol>
+
 <h2 align="center">Important</h1>
 Block direct access to the configuration file (conf.ini).
+<p>For Apache</p>
+<pre><FilesMatch "\.ini$">
+  Require all denied
+</FilesMatch></pre>
+<p>For Nginx</p>
+<pre>location /conf/ {
+    deny all;
+    access_log off;
+    log_not_found off;
+}</pre>
