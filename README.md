@@ -27,5 +27,5 @@
   <li>Chatgpt</li>
   <li>svg online editor</li>
 </ol>
-<h1 align="center" style="color:red">Important</h1>
+<h2 align="center">Important</h1>
 Block direct access to the configuration file (conf.ini).
