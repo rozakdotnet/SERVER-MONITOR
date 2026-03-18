@@ -37,6 +37,4 @@ Block direct access to the configuration file (conf.ini).
 }</pre>
 <p>For Openlitespeed:</p>
 <pre>Login -> Virtual host -> Context -> Static -> URI: /conf/ -> Location: /To-the-path/conf -> Accessible: no -> Expires: no</pre>
-<a href="https://bossku.eu.org">Live Demo</a>
-<a href="https://example.com" target="_blank">Klik di sini</a>
-[Klik di sini](https://example.com)
+<h3><a href="https://bossku.eu.org" target="_blank">Live Demo</a></h3>
