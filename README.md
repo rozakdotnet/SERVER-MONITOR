@@ -2,3 +2,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/rozakdotnet/SERVER-MONITOR/refs/heads/main/img/dash.jpg" width="80%">
 </div>
+
+<b>Installation:</b>
+1.Download and extract the project.
+<pre>wget [https://example.com/file.zip](https://github.com/rozakdotnet/SERVER-MONITOR/archive/refs/heads/main.zip) -O file.zip && unzip file.zip</pre>
