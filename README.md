@@ -2,7 +2,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/rozakdotnet/SERVER-MONITOR/refs/heads/main/img/dash.jpg" width="80%">
 </div>
-<p>Server monitor designed for HomeServer and HomeLab where include Immich and AdguardHome api's, however it still works on vps. The temperature information only allowed by deicated server, storage information access allowed in dedicated and KVM vps.</p>
+<p>Server monitor designed for HomeServer and HomeLab where include Immich and AdguardHome api's, however it still works on vps. The temperature information only allowed by deicated server, storage information access allowed in dedicated server and KVM vps.</p>
 <p><b>Requirements:</b></p>
 <ol><li>Linux OS</li>
   <li>Apache/Nginx/Litespeed/Openlitespeed/any web server</li>
