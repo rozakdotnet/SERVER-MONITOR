@@ -1,5 +1,4 @@
-<?php require "part/head.php";?>
-<section>
+<?php require "part/head.php";?><section>
 <h2>ABOUT</h2>
 <div class="card">
 <p>Ini adalah homemeserver kedua saya, ianya bermula ketika saya memerlukan sistem muat turun harian data cadangan dari beberapa laman web yang saya uruskan.</p>
@@ -29,9 +28,4 @@
 <li>OpenliteSpeed + lsphp</li>
 </ul>
 </div>
-</section><style>.imgabt {margin:5px auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}.dark .imgabt{filter: brightness(50%);}</style>
-<?php require "part/foot.php";?>
+</section><style>.imgabt {margin:5px auto;max-width: 100%;height: auto;display: block;}.dark .imgabt{filter: brightness(50%);}</style><?php require "part/foot.php";?>
