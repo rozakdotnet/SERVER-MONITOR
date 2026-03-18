@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/rozakdotnet/SERVER-MONITOR/refs/heads/main/img/dash.jpg" width="80%">
 </div>
 
-<p>Requirements:</p>
+<p><b>Requirements:</b></p>
 <ol>
   <li>Apache/Nginx/Litespeed/Openlitespeed/any web server</li>
   <li>Php</li>
@@ -18,3 +18,12 @@
 <p>1.Run a cron to collect data of cpu load.</p>
 <pre>crontab -e
 * * * * * php /to-the-path/cron.php</pre>
+<p>2.Edit configuration with following the instruction on the file (conf.ini)</p>
+<pre>nano conf.ini</pre>
+<br/>
+<br/>
+<p>Credit:</p>
+<ol>
+  <li>Chatgpt</li>
+  <li>svg online editor</li>
+</ol>
