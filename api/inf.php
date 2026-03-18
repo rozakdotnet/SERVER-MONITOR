@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json; charset=UTF-8'); $iniFile = __DIR__. '/../conf.ini'; $config = parse_ini_file($iniFile, true);
+header('Content-Type: application/json; charset=UTF-8'); $iniFile = __DIR__. '/../conf/conf.ini'; $config = parse_ini_file($iniFile, true);
 $ImmUrl = $config['Immich']['url'] ?? 'unknown'; $ImmKey = $config['Immich']['key'] ?? 'unknown';
 function getCpuTemp() {
   foreach(glob('/sys/class/hwmon/hwmon*/name') as $file) {
