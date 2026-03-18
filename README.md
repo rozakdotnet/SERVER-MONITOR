@@ -5,4 +5,4 @@
 
 <b>Installation:</b>
 1.Download and extract the project.
-<pre>wget [https://example.com/file.zip](https://github.com/rozakdotnet/SERVER-MONITOR/archive/refs/heads/main.zip) -O file.zip && unzip file.zip</pre>
+<pre>wget https://github.com/rozakdotnet/SERVER-MONITOR/archive/refs/heads/main.zip -O file.zip && unzip file.zip</pre>
