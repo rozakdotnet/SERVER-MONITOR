@@ -25,13 +25,15 @@
 
 <h2 align="center">Important</h1>
 Block direct access to the configuration file (conf.ini).
-<p>For Apache</p>
+<p>For Apache:</p>
 <pre> &lt;FilesMatch "\.ini$"&gt; 
   Require all denied 
   &lt;/FilesMatch&gt;</pre>
-<p>For Nginx</p>
+<p>For Nginx:</p>
 <pre>location /conf/ {
     deny all;
     access_log off;
     log_not_found off;
 }</pre>
+<p>For Openlitespeed:</p>
+<pre>Login -> Virtual host -> Context -> Static -> URI: /conf/ -> Location: /To-the-path/conf -> Accessible: no -> Expires: no</pre>
