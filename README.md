@@ -26,7 +26,9 @@
 <h2 align="center">Important</h1>
 Block direct access to the configuration file (conf.ini).
 <p>For Apache</p>
-<pre> ```apache &lt;FilesMatch "\.ini$"&gt; Require all denied &lt;/FilesMatch&gt; ``` </pre>
+<pre> &lt;FilesMatch "\.ini$"&gt; 
+  Require all denied 
+  &lt;/FilesMatch&gt;</pre>
 <p>For Nginx</p>
 <pre>location /conf/ {
     deny all;
