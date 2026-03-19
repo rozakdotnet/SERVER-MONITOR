@@ -18,7 +18,7 @@
 <p>1.Run a cron to collect data of cpu load.</p>
 <pre>crontab -e
 * * * * * php /to-the-path/cron.php</pre>
-<p>2.Edit configuration with following the instruction on the file (conf.ini)</p>
+<p>2.Edit the configuration with following the instruction on the file (conf.ini)</p>
 <pre>nano conf/conf.ini</pre>
 <br/>
 <br/>
