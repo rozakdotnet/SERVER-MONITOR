@@ -1,7 +1,7 @@
 <h1 align="center">SERVER MONITOR</h1>
 <div align="center">
   <img src="https://raw.githubusercontent.com/rozakdotnet/SERVER-MONITOR/refs/heads/main/img/dash.jpg" width="80%">
-</div>
+</div><br/>
 <p>Server monitor designed for HomeServer and HomeLab where include Immich and AdguardHome api's, however it still works on vps. The temperature information only allowed by deicated server, storage information access allowed in dedicated server and KVM vps.</p>
 <p><b>Requirements:</b></p>
 <ol><li>Linux OS</li>
@@ -23,8 +23,9 @@
 <br/>
 <br/>
 <p>Please allow 10 minutes for api to syncron data.</p>
+<br>
 <h2 align="center">Important</h1>
-Block direct access to the configuration file (conf.ini).
+<p>Block direct access to the configuration file (conf.ini).</p>
 <p>For Apache:</p>
 <pre> &lt;FilesMatch "\.ini$"&gt; 
   Require all denied 
