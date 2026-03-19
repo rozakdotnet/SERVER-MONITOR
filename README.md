@@ -22,7 +22,7 @@
 <pre>nano conf/conf.ini</pre>
 <br/>
 <br/>
-
+<p>Please allow 10 minutes for api to syncron data.</p>
 <h2 align="center">Important</h1>
 Block direct access to the configuration file (conf.ini).
 <p>For Apache:</p>
